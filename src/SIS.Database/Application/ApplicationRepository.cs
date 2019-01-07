@@ -49,7 +49,7 @@ namespace RedStarter.Database.Application
             await _context.EducationTableAccess.AddAsync(educationEntity);
             await _context.ExperienceTableAccess.AddAsync(experienceEntity);
 
-            return await _context.SaveChangesAsync() == 6;
+            return await _context.SaveChangesAsync() == 5;
         }
 
         public async Task<IEnumerable<ApplicationListItemRAO>> GetAllApplications()

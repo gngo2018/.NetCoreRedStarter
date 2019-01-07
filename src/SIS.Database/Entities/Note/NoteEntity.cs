@@ -12,9 +12,13 @@ namespace RedStarter.Database.Entities.Note
 
         [Required]
         public string Title { get; set; }
+        
+        [Required]
+        public int OwnerId { get; set; }
 
         public string Content { get; set; }
         [Required]
         public DateTimeOffset DateCreate { get; set; }
+
     }
 }

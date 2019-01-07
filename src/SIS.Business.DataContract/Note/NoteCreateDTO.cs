@@ -9,6 +9,7 @@ namespace RedStarter.Business.DataContract.Note
         public string Title { get; set; }
         public string Content { get; set; }
         public DateTimeOffset DateCreate { get; set; }
+        public int OwnerId { get; set; }
 
     }
 }
